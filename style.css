@@ -256,7 +256,6 @@ input
 }
 .rooms :hover
 {
-    transform: scale(1.02);
     object-fit: cover;
 }
 .rooms-title
@@ -328,11 +327,7 @@ input
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
-.aside:hover
-{
-	-webkit-transform: scale(0.5);
-	transform: scale(0.5);
-}
+
 aside
 {
     display: flex;
