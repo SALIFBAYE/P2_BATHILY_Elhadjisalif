@@ -1,0 +1,657 @@
+/*ANIMATIONS*/
+body {
+	font-family: Releway, serif;
+	width: 100%;
+}
+.container-logo-inscription{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 90px;
+}
+
+
+.nav-element1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    padding: 30px;
+}
+
+.nav-element, .nav-element2{
+    position: relative;
+    bottom: 56px; 
+}
+
+.nav-element a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    padding: 30px;
+
+}
+.nav-element a:hover, .nav-element1 a:hover, .nav-element2 a:hover{
+
+    border-top: 5px solid #0065FC;
+    padding-top: 30px;
+   
+}
+
+.nav-element2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    padding: 30px;
+   
+}
+
+.container-link-reverse{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding-right: 135px;
+    margin-left: 1px;
+    
+}
+.container-link-reverse a:hover{
+color: #0065FC;
+font-weight: bold;
+}
+.inscription-link a{
+    font-weight: bold;
+    color:#0065FC ;
+}
+.content-icon-filter  :hover{
+    background-color:#0065FC ;
+}
+
+.button-filter:hover{
+    background-color: #0065FC ;
+}
+
+.content-pop img{
+    transition: transform .5s;
+}
+
+.vieux-port img{
+
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    
+}
+.vieux-port:hover  {
+	opacity: .5;
+}
+.fort-pomegues img{
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.fort-pomegues :hover {
+    opacity: .5;
+}
+.iles-frioul img{
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.iles-frioul:hover{
+    opacity: .5;
+}
+.parc-national-calanques img{
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.parc-national-calanques :hover{
+    opacity: .5;
+}
+.notre-dame-de-la-garde img{
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.notre-dame-de-la-garde :hover{
+    opacity: .5;
+}
+.parc-longchamp img{
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.parc-longchamp :hover{
+    opacity: .5;
+}
+
+/*@media screen and (max-width:700px){
+    .button-smartphone{
+        display: block;
+    }
+    .button-search-world{
+        display: none;
+    }
+    .container-link-reverse{
+        display: flex;
+        justify-content:space-between;
+        margin: 35px;
+    }
+    .nav-element1 a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        padding-left: inherit;
+        padding:inherit;
+        
+    }
+    .nav-element a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        padding-left: inherit;
+        padding:inherit;
+        
+    }
+    .nav-element2 a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        padding-left: inherit;
+        padding-right:inherit;
+    }
+
+    nav{
+        width: auto;
+        margin: 0;
+        border-bottom: 1px solid grey;
+        
+    }
+    .nav-element, .nav-element2{
+        margin: 30%;
+        text-align: center;
+        padding-bottom: 50px;
+        position: inherit;
+        bottom: inherit;
+    }
+
+    .nav-element:hover{
+        border-bottom: 1px solid#0065FC; 
+        padding-bottom: 50px;
+
+    }
+    .nav-element2:hover{
+        border-bottom: 1px solid #0065FC; 
+        padding-bottom: 50px;
+       
+    }
+    .inscription-link  a{
+        color: #0065FC;
+        font-weight: bold;
+    }
+    .nav-element a:hover, .nav-element1 a:hover, .nav-element2 a:hover{
+
+        border-top: inherit;
+        padding-top: inherit;
+       
+    }
+    .container-logo-inscription{
+        display: flex;
+        justify-content: space-between;
+        margin: 0%;
+    }
+    
+    .filter-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .only-filter{
+        display: flex;
+        flex-direction: column;
+    }
+    .pop-contain{
+    order: -1;
+    padding: 0;
+    border-radius: 0;
+    margin: 0;
+    width: 100%;
+
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 10%;
+    }
+    .pop-contain figure{
+    background-color:#ffffff;
+        
+    }
+    .pop-contain{
+        
+        border-radius: 0;
+    }
+    aside figure{
+        width: auto;
+    }
+    .pop-contain, figure{
+        width: inherit;
+        margin: inherit;
+    }
+   #main-activities{
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       height: auto;
+       
+   }
+   .contain-footer{
+       display: flex;
+       flex-direction: column;
+       padding-left: 20px;
+       
+   }
+   .content-footer{
+       padding: 30px;
+   }
+
+   
+   #main-activities img{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+   }
+   #activities{
+       padding-left: 15px;
+   } 
+   .vieux-port{
+    padding-bottom: 10px;
+    width: 100%;
+   } 
+   #main-activities figure{
+       margin: 20px;
+
+   }
+   #activities img{
+    object-fit: cover;
+    width: 100%;
+    height: 607px;
+   }
+   
+   .contain-footer{
+       display: flex;
+       flex-direction: column;
+
+   }
+
+}
+
+
+/*                           nav                       */
+
+
+.search-icon{
+    background-color: #F2F2F2;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 43px;
+    border-radius:10px 0 0 10px ;
+    line-height: 40px;
+}
+.button-search-world{
+    height: 43px;
+    color: white;
+    background-color: #0065FC;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    padding: 10px;
+}
+.button-smartphone{
+    height: 43px;
+    width: 43px;
+    background-color: #0065FC;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    color: white;
+    
+}
+.button-search-world a{
+    color: white;
+
+    text-decoration: none;
+    
+}   
+input{
+    border: inherit;
+    border: 1px solid #F2F2F2;
+    height: 43px;
+}
+.search-content{
+    display: flex;
+    align-items: center;
+}
+
+/*                          Info                           */
+.info i{
+    padding-left: 27px;
+    height: 30px;
+    line-height: 30px;
+    color:#0065FC ;
+    
+}
+ .cercle i{
+    color:#F2F2F2;
+}
+
+.info p{
+    padding-left: 2px;
+    padding: 15px;
+}
+.info-logo{
+    border: 0px solid #DEEBFF;
+    border-radius: 100%;
+}
+.info{
+display: flex;
+flex-direction: row-reverse;
+margin-left: 2px;
+}
+/*                     Filtres                               */
+.filter-container{
+    display: flex;
+    margin-top: 30px;
+}
+.button-filter{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid #DEEBFF;
+    border-radius: 25px;
+    height: 43px;
+
+}
+.button-filter p{
+    padding: 10px;
+}
+.only-filter{
+    display: flex;
+    
+}
+.content-icon-filter{
+    height: 43px;
+    width: 43px;
+    color:#0065FC ;
+    background-color:#DEEBFF ;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 43px;
+}
+.button-filter p{
+    font-weight: bold;
+}
+
+/*                           SECTION HEBERGEMENTS             */
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+#hebergements-contain{
+    background-color:#F2F2F2;
+    border-radius: 30px;
+    margin: auto;
+    width: 65%;
+
+}
+
+.cards figure{
+    margin: 10px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    box-shadow: 4px 4px 3px #aaa;
+    width: 17.5em;
+    height: 18.5em;
+
+}
+.cards img{
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+height: 10em;
+width: 100%;
+object-fit: cover;
+}
+.cards a{
+    text-decoration: none;
+    color: black;
+    
+}
+.star-blue{
+    color: #0065FC;
+}
+.star-grey{
+    color: #F2F2F2;
+}
+.content-pop .star-grey{
+    color: #F2F2F2;
+
+}
+.cards{
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+#hebergements-contain article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /*
+    margin-left: 2px;*/
+}
+.cards figcaption{
+    margin-left: 15px;
+    padding-right: 15px;
+}
+.more-class-button a{
+    text-decoration:none;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px;
+
+}
+.more-class-button{
+    padding:20px 0 18px 20px;
+}
+#hebergements-contain h2{
+    padding:20px 0px 10px 40px;
+
+}
+article{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+}
+
+
+/*                            ASIDE POPULAIRE                */
+.title-aside{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+    padding: 20px 0 10px 15px;
+    
+
+}
+.pop-contain{
+    background-color:#F2F2F2 ;
+    border-radius: 30px;
+    padding: 20px 0px 20px 20px;
+    margin-left:    30px;
+    font-size: 1rem;
+}
+.pop-contain figure{
+    background-color:#ffffff;
+    border-radius: 30px;
+    display: flex;
+    box-shadow: 4px 4px 6px #aaa;
+    border: 4px solid #ffffff;
+    margin: 5px 5px;
+    width: 90%;
+}
+.content-pop img{
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;
+    width: 45%;
+    height: auto;
+
+}
+.content-pop a{
+    text-decoration: none;
+    color: black;
+    margin: 3%;
+}
+
+.content-pop span{
+    color:#0065FC ;
+}
+.content-pop figcaption{
+    padding: 6%;
+}
+/*                          MAIN                           */
+#container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10%;
+
+}
+/*                    SECTION ACTIVITIES                    */
+
+#activities img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 335px;
+    object-fit: cover;
+}
+#activities{
+    margin-top: 3em;
+}
+#activities h2{
+    padding: 20px 0 18px 40px;
+}
+#main-activities a{
+    text-decoration: none;
+}
+
+#main-activities{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.vieux-port img{
+    height: 530px;
+}
+
+.parc-national-calanques img{
+    height: 530px;
+
+}
+
+.vieux-port figure{
+    box-shadow: 10px 8px 8px #aaa;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.parc-national-calanques figure{
+    box-shadow: 10px 8px 8px #aaa;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+.iles-frioul figure{
+    box-shadow: 10px 8px 8px #aaa;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+.fort-pomegues figure{
+    box-shadow: 10px 8px 8px #aaa;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+.notre-dame-de-la-garde figure{
+    box-shadow: 10px 8px 8px #aaa;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+.parc-longchamp figure{
+    box-shadow: 10px 8px 8px #aaa;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+.vieux-port figcaption{
+    color: black;
+    margin: 5%;
+}
+.fort-pomegues figcaption{
+    color: black;
+    margin: 5%;
+
+}
+.iles-frioul figcaption{
+    color: black;
+    margin: 5%;
+
+
+}
+.parc-national-calanques figcaption{
+    color: black;
+    margin: 5%;
+
+}
+.notre-dame-de-la-garde figcaption{
+    color: black;
+    margin: 5%;
+
+
+}
+.parc-longchamp figcaption{
+    color: black;
+    margin: 5%;
+
+
+}
+
+/*                            FOOTER                       */
+.contain-footer a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    margin: 2px;
+
+}
+
+.contain-footer{
+    background-color:#F2F2F2;
+    padding: 20px 0px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.content-footer{
+    margin-right: 20%;
+
+}
